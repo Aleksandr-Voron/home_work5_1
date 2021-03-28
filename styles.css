@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: "Proxima Nova Light";
+  src: url("fonts/ProximaNova-Light.eot");
+  src: url("fonts/ProximaNova-Light.eot?#iefix") format("embedded-opentype"),
+    url("fonts/ProximaNova-Light.woff") format("woff"),
+    url("fonts/ProximaNova-Light.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: "Proxima Nova Light";
+  text-align: center;
+  color: #9d9d9d;
+}
+
+table {
+  display: block;
+  margin: 0 auto;
+  padding: 50px 0;
+  width: 868px;
+  
+}
+
+.img_wraper{
+  width: 64px;
+  height: 64px;
+  display: inline-block;
+  border-radius: 32px;
+  background: #1275b9;
+  border: 1px solid #1275b9; 
+  margin-bottom: 15px;
+}
+
+.simple_fone{
+  background: url(images/Foto_1.png) center center no-repeat;
+}
+
+.simple_fone:hover{
+  border: 1px solid #fff;
+  background:#74aed6 url(images/Foto_1_white.png) center center no-repeat;
+}
+
+.simple_around{
+  background: url(images/Foto_2_blue.png) center center no-repeat;
+}
+
+.simple_around:hover{
+  border: 1px solid #fff;
+  background:#74aed6 url(images/Foto_2.png) center center no-repeat;
+}
+
+.simple_clock{
+  background: url(images/Foto_3_blue.png) center center no-repeat;
+}
+
+.simple_clock:hover{
+  border: 1px solid #fff;
+  background:#74aed6 url(images/Foto_3.png) center center no-repeat;
+}
+
+.title{
+  margin-bottom: 15px;
+  text-transform: uppercase;
+  font-size: 14px;
+  color: #000;
+  font-weight: bold;
+}
+
+
+
+
+
